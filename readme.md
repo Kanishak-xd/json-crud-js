@@ -18,3 +18,8 @@ Entries can be any data type as well as JS functions, arrays, etc
 
 - **Destructuring Assignment:** It refers to the JS syntax for unpacking the object values and assigning them to other variables
 - **Dot Notations:** This syntax allows to access the object properties and items using a . symbol
+
+## Methods to delete an object
+
+- **Delete Operator:** Delete keyword is used to remove the object property mentioned after it
+- **Destructuring Assignment:** It refers to the JS syntax for unpacking the object values and assigning them to other variables
