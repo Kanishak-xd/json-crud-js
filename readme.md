@@ -1,4 +1,4 @@
-# CRUD Operations on a JS Object
+# CRUD Operations on a JS Object / JSON File
 
 JS Objects are a collection of keys, vals or attributes/properties, and entries
 Entries can be any data type as well as JS functions, arrays, etc
