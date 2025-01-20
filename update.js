@@ -8,13 +8,11 @@ function writeJSON(data) {
     fs.writeFileSync('objects.json', JSON.stringify(data, null, 2));
 }
 
-// Creating an object
-const data = readJSON();
-const myFriend = {
-    fname: "Kelzang", 
-    lname: "Dorji",
-    age: 20
-};
+// Update fname
+function updateFname() {
+    const data = readJSON();
+    data[0].fname = "Kelzang";
+    writeJSON(data);
+}
 
-data.push(myFriend);
-writeJSON(data);
+updateFname();
